@@ -1,0 +1,147 @@
+/* configuracao geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* configuracao body */
+body {
+  background-color: #000000;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+/* configuracao main */
+main {
+  background-color: #0c0b0b;
+  color: #b7b7b7;
+  font-family: 'Rubik', sans-serif;
+  height: 440px;
+  width: 100%;
+}
+
+/* centralizacao main */
+.marginMainContent {
+  text-align: center;
+}
+
+/* configuracao imagem */
+img {
+  width: 80px;
+  border-radius: 100%;
+}
+
+/* configuracao caixa profile */
+.confProfile {
+  position: relative;
+  top: -27px;
+}
+
+/* configuracao h1 da caixa profile */
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* configuracao links caixa profile */
+.profileInfos a {
+  text-decoration: none;
+  color: #b7b7b7;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+/* configuracao botao da caixa profile */
+.editbutton {
+  background-color: #161515;
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 5px 10px;
+}
+
+/* configuracao caixa confflexbox */
+/* conf caixas de informacoes */
+.boxP {
+  background-color: #046313;
+}
+
+.boxE {
+  background-color: #044a7d;
+}
+
+.boxS {
+  background-color: #725200;
+}
+
+/* configuracao geral das caixas do confflexbox */
+.geralbox {
+  padding: 12px;
+  border-radius: 5px;
+  margin: 13px 50px;
+  text-align: left;
+  position: relative;
+  top: -22px;
+}
+
+.geralbox p:nth-child(2) {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+/* conf media query */
+@media (min-width: 760px) {
+  /* conf main */
+  main {
+    width: 70vw;
+    height: 300px;
+    margin: auto;
+  }
+
+  /* margen do main  */
+  .marginMainContent {
+    margin: 50px;
+  }
+
+  /* conf das informacoes caixa confprofile */
+  .confProfile {
+    display: flex;
+    position: inherit;
+    margin-bottom: 50px;
+  }
+
+  /* conf links da caixa confprofile */
+  .profileInfos {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  /* configuracao nome e email caixa profile */
+  .confNameProfile {
+    margin: 0px 10px;
+  }
+
+  /* configuracao edit buton caixa profile  */
+  .editbutton {
+    height: 35px;
+  }
+
+  /* configuracao caixa confflexbox */
+  .confFlexBox {
+    display: flex;
+    gap: 30px;
+  }
+
+  /* configuracao geral caixas de informacao do conflexbox */
+  .geralbox {
+    position: inherit;
+    margin: 0px;
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
+
+/* 21 linhas sem codigo */
